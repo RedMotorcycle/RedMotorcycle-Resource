@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to Valorant Tracker...</title>
+  <script>
+    // RSOからのコールバックパラメータ（?code=...）を取得
+    const searchParams = window.location.search;
+    // アプリのカスタムスキームに転送
+    // valorant-tracker://callback?code=...
+    window.location.href = "valorant-tracker://callback" + searchParams;
+  </script>
+</head>
+
+<body>
+  <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+    <p>Redirecting to app...</p>
+    <p>If not redirected automatically, <a id="manualLink" href="#">click here</a>.</p>
+  </div>
+  <script>
+    document.getElementById('manualLink').href = "valorant-tracker://callback" + window.location.search;
+  </script>
+</body>
+
+</html>

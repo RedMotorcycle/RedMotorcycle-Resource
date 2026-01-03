@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Logging out from Valorant Tracker...</title>
+    <script>
+        // アプリのカスタムスキームに転送 (ログアウト用)
+        // valor-board://logout
+        window.location.href = "valor-board://logout";
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+        <p>Returning to app...</p>
+        <p>If not redirected automatically, <a id="manualLink" href="#">click here</a>.</p>
+    </div>
+    <script>
+        document.getElementById('manualLink').href = "valor-board://logout";
+    </script>
+</body>
+
+</html>

@@ -8,8 +8,8 @@
     // RSOからのコールバックパラメータ（?code=...）を取得
     const searchParams = window.location.search;
     // アプリのカスタムスキームに転送
-    // valorant-tracker://callback?code=...
-    window.location.href = "valorant-tracker://callback" + searchParams;
+    // valor-board://login?code=...
+    window.location.href = "valor-board://login" + searchParams;
   </script>
 </head>
 
@@ -19,7 +19,7 @@
     <p>If not redirected automatically, <a id="manualLink" href="#">click here</a>.</p>
   </div>
   <script>
-    document.getElementById('manualLink').href = "valorant-tracker://callback" + window.location.search;
+    document.getElementById('manualLink').href = "valor-board://login" + window.location.search;
   </script>
 </body>
 

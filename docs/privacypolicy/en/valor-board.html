@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor Board Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        h1 {
+            border-bottom: 2px solid #ff4655;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-left: 4px solid #ff4655;
+            padding-left: 10px;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #ff4655;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .update-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #eee;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Valor Board Privacy Policy</h1>
+    <p class="update-date">Last Updated: January 8, 2026</p>
+    <div class="intro">
+        <p>By using this application, you agree to this Privacy Policy.</p>
+        <p>Users are asked to confirm their agreement to the Terms of Use when installing or updating the application.
+        </p>
+    </div>
+    <h2>Age Restriction</h2>
+    <p>This application is intended for users aged 16 and older. This complies with Riot Games' account creation
+        requirements. Users under 16 must obtain parental consent before use.</p>
+    <h2>Data We Collect and Use</h2>
+    <h3>Data Obtained via Riot Games API</h3>
+    <ul>
+        <li>Riot ID (Game Name #Tag Line)</li>
+        <li>Account Information (Identifiers like PUUID)</li>
+        <li>Match History and Performance Data</li>
+        <li>Rank Information</li>
+    </ul>
+    <p>This application retrieves and displays player match history and rank information via the Riot Games API.</p>
+    <p>To view personal match data (match history, detailed stats, dashboard features, etc.), we require user
+        authentication (Opt-in) via Riot Sign On (RSO) to verify data ownership and protect privacy.</p>
+    <p>By authenticating through RSO, you agree (Opt-in) that your player data will be retrieved, analyzed, and
+        displayed by this application.</p>
+    <h3>Data Saved on Your Device</h3>
+    <ul>
+        <li>Authentication Tokens (Saved in secure encrypted storage)</li>
+        <li>User Settings and Application Configuration</li>
+        <li>Cache Data (Game content information, etc.)</li>
+    </ul>
+    <h3>Data Sent to Servers</h3>
+    <ul>
+        <li>Firebase Analytics: App usage data (contains no personally identifiable information)</li>
+        <li>Firebase Crashlytics: Crash reports (includes device information)</li>
+        <li>Cloud Firestore: User PUUID and consent information (for data validation among app users)</li>
+        <li>Firebase App Check: Tokens for verifying app and device authenticity (Google Play Integrity API / Apple
+            DeviceCheck / App Attest)</li>
+        <li>Google AdMob: Advertising identifiers (IDFA/AAID), device information, and interaction data (for ad delivery
+            and analysis)</li>
+    </ul>
+    <div class="divider"></div>
+    <h2>Data Retention and Deletion</h2>
+    <h3>Data Storage Locations</h3>
+    <ul>
+        <li>Device Storage: Authentication info, settings, cache</li>
+        <li>Firebase Servers (Google Cloud): Analytics data, crash reports</li>
+        <li>Cloud Firestore (Google Cloud / Tokyo Region): Opt-in user identifiers (PUUID)</li>
+        <li>Google AdMob Servers: Advertising-related data</li>
+    </ul>
+    <p>This application does not collect data on proprietary servers but uses the aforementioned Firebase services and
+        Google AdMob to provide features.</p>
+    <h3>Data Retention Period</h3>
+    <ul>
+        <li>Device Data: Until the app is uninstalled</li>
+        <li>Firebase Analytics: Subject to Google's data retention policies</li>
+        <li>Firebase Crashlytics: 90 days</li>
+        <li>Google AdMob: Subject to Google's data retention policies</li>
+    </ul>
+    <h3>How to Delete Data</h3>
+    <p>Data on the device is deleted by uninstalling the app. Data sent to Firebase and AdMob is processed according to
+        Google's policies.</p>
+    <div class="divider"></div>
+    <h2>User Rights and Opt-out</h2>
+    <p>Users have the following rights regarding their data:</p>
+    <ul>
+        <li>Revoking consent for data collection (Opt-out)</li>
+        <li>Complete deletion of device data</li>
+        <li>Opting out of personalized ads (via device settings)</li>
+    </ul>
+
+    <h3>Exercising Rights and Deleting Data</h3>
+    <p>You can stop data usage and delete data by performing the following actions:</p>
+    <ul>
+        <li>
+            <strong>Logging out of the App (Disconnecting RSO)</strong>:<br>
+            Please log out from the settings screen within the app. This will immediately delete your opt-in
+            registration on the server and disable the viewing of detailed statistics. This revokes your consent for
+            data acquisition via RSO.
+        </li>
+        <li>
+            <strong>Uninstalling the App</strong>:<br>
+            All data on your device (authentication tokens, settings, cache) will be completely deleted. Transmission of
+            statistical data like Firebase Analytics will also stop.
+        </li>
+    </ul>
+    <div class="divider"></div>
+    <h2>Security Measures</h2>
+    <ul>
+        <li>Authentication tokens are stored in secure encrypted storage on the device (iOS: Keychain, Android:
+            EncryptedSharedPreferences).</li>
+        <li>Communication with external servers is encrypted using HTTPS.</li>
+        <li>Confidential information such as authentication tokens is not shared with third parties.</li>
+    </ul>
+    <div class="divider"></div>
+    <h2>Third-Party Services</h2>
+    <p>This application uses the following third-party services:</p>
+    <h3>Riot Games API</h3>
+    <p>Used to retrieve VALORANT game data.</p>
+    <ul>
+        <li><a href="https://www.riotgames.com/en/privacy-notice">Riot Games Privacy Notice</a></li>
+        <li><a href="https://www.riotgames.com/en/terms-of-service">Riot Games Terms of Service</a></li>
+    </ul>
+    <h3>Firebase (Google)</h3>
+    <p>Used for app analytics, crash reporting, and security (preventing unauthorized use).</p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a></li>
+        <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy Information</a></li>
+    </ul>
+    <h3>Google AdMob</h3>
+    <p>Used for ad delivery. Advertising identifiers and device information may be collected and used to display
+        appropriate ads to users.</p>
+    <ul>
+        <li><a href="https://policies.google.com/technologies/ads?hl=en">Google Advertising – Policies and Terms</a>
+        </li>
+    </ul>
+    <div class="divider"></div>
+    <h2>Changes to Privacy Policy</h2>
+    <p>This policy may be updated as necessary. You may be asked to agree to the new policy upon the first launch after
+        an app update.</p>
+    <div class="divider"></div>
+    <h2>Disclaimer</h2>
+    <p>Please note that we are not responsible for any damages caused by this application.</p>
+    <div class="contact">
+        <h2>Developer Information</h2>
+        <p>Contact: <a href="mailto:redmotorcycleapps@gmail.com">redmotorcycleapps@gmail.com</a></p>
+        <p>
+            <a href="https://apps.apple.com/app/valor-board/id6450135340" target="_blank">
+                <img src="../../assets/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.png"
+                    alt="Download on the App Store" style="width: 135px; height: auto;">
+            </a>
+        </p>
+
+    </div>
+</body>
+
+</html>
